@@ -3,6 +3,7 @@ import InstagramIcon from './svg-components/InstagramIcon'
 import TwitterIcon from './svg-components/TwitterIcon'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -21,21 +22,25 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className=' uppercase text-sm mt-4 mb-4'>
+          <div className=' uppercase text-sm mt-4 mb-4 px-2'>
             CUSTOMIZED SOLUTIONS
           </div>
           <div>
             <FontAwesomeIcon icon={faAngleRight} style={{ fontSize: 12 }} />{' '}
-            <span className='text-sm text-gray-500 '>Suwasa</span>
-          </div>
-          <div>
-            <FontAwesomeIcon icon={faAngleRight} style={{ fontSize: 12 }} />{' '}
-            <span className='text-sm text-gray-500 '>Optus</span>
+            <span className='text-sm text-gray-500 '>
+              <Link href='/suwasa'>Suwasa</Link>
+            </span>
           </div>
           <div>
             <FontAwesomeIcon icon={faAngleRight} style={{ fontSize: 12 }} />{' '}
             <span className='text-sm text-gray-500 '>
-              OCR Mortgage Documents
+              <Link href='/optus'>Optus</Link>
+            </span>
+          </div>
+          <div>
+            <FontAwesomeIcon icon={faAngleRight} style={{ fontSize: 12 }} />{' '}
+            <span className='text-sm text-gray-500 '>
+              <Link href='/pdfocr'>OCR Mortgage Documents</Link>
             </span>
           </div>
         </div>
@@ -43,15 +48,21 @@ const Footer = () => {
           <div className=' uppercase text-sm mt-4 mb-4'>QUICK LINKS</div>
           <div>
             <FontAwesomeIcon icon={faAngleRight} style={{ fontSize: 12 }} />{' '}
-            <span className='text-sm text-gray-500 '>Contact</span>
+            <span className='text-sm text-gray-500 '>
+              <Link href='/contact'>Contact</Link>
+            </span>
           </div>
           <div>
             <FontAwesomeIcon icon={faAngleRight} style={{ fontSize: 12 }} />{' '}
-            <span className='text-sm text-gray-500 '>About</span>
+            <span className='text-sm text-gray-500 '>
+              <Link href='/about'>About</Link>
+            </span>
           </div>
           <div>
             <FontAwesomeIcon icon={faAngleRight} style={{ fontSize: 12 }} />{' '}
-            <span className='text-sm text-gray-500 '>Latest Projects</span>
+            <span className='text-sm text-gray-500 '>
+              <Link href='/projects'>Latest Projects</Link>
+            </span>
           </div>
         </div>
         <div>
