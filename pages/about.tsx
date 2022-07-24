@@ -38,9 +38,12 @@ const About: NextPage = () => {
               25+ years’ experiences in software development
             </p>
             <p>
-              We mainly focus on customized application development with React /
-              GraphQL / NoSQL while provide our traditional mapping/data
-              collection service.
+              We are a small team, home in Orange County, CA. We service our
+              remote clients in Texas, Washington, Louisiana, and local clients
+              in Irvine, San Diego, and Los Angeles. We mainly focus on
+              customized application development: web, and Mobile applications.
+              Our latest tech stacks include React.JS, GraphQL, NoSQL, and
+              Oracle DB, SQL Server, ASP.net/C#, Java, PHP....
             </p>
             <div className='bg-veryLightGray p-2 mt-4 relative h-64'>
               <Image

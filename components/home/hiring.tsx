@@ -8,8 +8,8 @@ const Hiring = () => {
         <h1 className='text-[40px]  text-white leading-[3.5rem] text-center lg:text-left mb-4'>
           WANT TO HIRE
         </h1>
-        <h2 className='text-[20px]  text-white leading-[3.5rem] text-center lg:text-left'>
-          THE BEST PEOPLE FOR YOUR PROJECT?
+        <h2 className='text-[20px]  text-white leading-[3.5rem] text-center lg:text-left uppercase'>
+          Local and Hard working PEOPLE FOR YOUR PROJECT?
         </h2>
       </div>
       <div className='flex items-center  p-10'>

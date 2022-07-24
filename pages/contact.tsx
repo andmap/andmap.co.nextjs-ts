@@ -66,8 +66,12 @@ const Contact: NextPage = () => {
             <h2 className='text-[40px] text-bold pb-10'>Contact</h2>
 
             <p>
-              With a comprehensive suite of Web, Mobile, IoT, and general
-              software services, Andmap has the expertise your project requires.
+              We appreciated your time and we offer a free quote for your
+              project. We can have an office meeting if you are local to talk
+              about your requirements.
+              {/* With a comprehensive suite of Web,
+              Mobile, IoT, and general software services, Andmap has the
+  expertise your project requires. */}
             </p>
             <div className='bg-veryLightBlue p-2 mt-4 relative '>
               <div className='text-blue text-[20px] mb-2'>ANDMAP, LLC.</div>
