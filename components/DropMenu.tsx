@@ -4,8 +4,9 @@ import { DropdownContext } from '../stores/DropdownContext'
 import Link from 'next/link'
 
 const Dropmenu = () => {
-  const { isOpen: globalIsOpen, toggle: gloablToggle } =
-    useContext(DropdownContext)
+  const { isOpen: globalIsOpen, toggle: gloablToggle } = useContext(
+    DropdownContext
+  )
 
   const menuApper = useSpring({
     transform: globalIsOpen ? 'translate3D(0,0,0)' : 'translate3D(0, -40px,0)',
@@ -30,10 +31,12 @@ const Dropmenu = () => {
               {' '}
               <Link href='/contact'>CONTACT</Link>
             </li>
+            {/*
             <li className='text-darkBlue font-bold'>
               {' '}
               <Link href='/login'>Login</Link>
             </li>
+      */}
           </ul>
         </animated.div>
       )}

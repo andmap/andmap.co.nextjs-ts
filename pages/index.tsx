@@ -6,7 +6,7 @@ import Hero from '../components/home/Hero'
 import Navbar from '../components/Navbar'
 import { SITE_TITLE } from '../lib/constants'
 import styles from '../styles/Home.module.css'
-
+import Link from 'next/link'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -20,34 +20,89 @@ const Home: NextPage = () => {
       <Navbar />
       <Hero />
       <main className={styles.main}>
-        <div className={styles.grid}>
-          <a href='https://nextjs.org/docs' className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <div className='grid grid-cols-2 gap-4'>
+          <div className='max-w-sm m-4 rounded overflow-hidden shadow-lg'>
+            <div className='w-full h-1 bg-blue' />
+            <div className='px-6 py-4'>
+              <div className='font-bold text-xl mb-2'>Latest Technologies</div>
+              <p className='text-gray-700 text-base'>
+                ReactJS, GraphQL API, Google Cloud Plantform, AWS...
+              </p>
+            </div>
+            <div className='px-6 pt-4 pb-2'>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #React
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #GraphQL
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #GCP
+              </span>
+            </div>
+          </div>
+          <div className='max-w-sm m-4 rounded overflow-hidden shadow-lg'>
+            <div className='w-full h-1 bg-blue' />
+            <div className='px-6 py-4'>
+              <div className='font-bold text-xl mb-2'>Service Remote</div>
+              <p className='text-gray-700 text-base'>
+                Washington,Texas, Louisiana, Vermont, Connecticts...
+              </p>
+            </div>
+            <div className='px-6 pt-4 pb-2'>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #Washington
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #Texas
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #Louisiana
+              </span>
+            </div>
+          </div>
 
-          <a href='https://nextjs.org/learn' className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <div className='max-w-sm m-4 rounded overflow-hidden shadow-lg'>
+            <div className='w-full h-1 bg-blue' />
+            <div className='px-6 py-4'>
+              <div className='font-bold text-xl mb-2'>Service Local</div>
+              <p className='text-gray-700 text-base'>
+                Orange County, Los Angeles, San Diego
+              </p>
+            </div>
+            <div className='px-6 pt-4 pb-2'>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #Irvine
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #LA
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #San Diego
+              </span>
+            </div>
+          </div>
 
-          <a
-            href='https://github.com/vercel/next.js/tree/canary/examples'
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div className='max-w-sm m-4 rounded overflow-hidden shadow-lg'>
+            <div className='w-full h-1 bg-blue' />
+            <div className='px-6 py-4'>
+              <div className='font-bold text-xl mb-2'>Got Idea</div>
+              <p className='text-gray-700 text-base'>
+                We are willing to partner with
+              </p>
+            </div>
+            <div className='px-6 pt-4 pb-2'>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #IoT
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #Field Mapping
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                #Blockchain
+              </span>
+            </div>
+          </div>
         </div>
       </main>
 

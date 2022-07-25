@@ -94,15 +94,17 @@ const Carousel: FC<{ data: ClientLogo[] }> = ({ data }) => {
       </div>
       <div className='text-center'>
         {totalPage > 1 &&
-          [...Array(totalPage).keys()].map((num, index) => (
+          [...new Array(totalPage)].map((_, index) => (
             <button
-              key={num}
-              onClick={() => moveTo(num)}
+              key={index}
+              onClick={() => moveTo(index)}
               className='hover:bg-blue-900/75 w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300'
             >
               <FontAwesomeIcon
                 icon={faCircle}
-                className={num === currentIndex ? 'text-blue' : 'text-gray-600'}
+                className={
+                  index === currentIndex ? 'text-blue' : 'text-gray-600'
+                }
                 style={{ fontSize: 14 }}
               />
             </button>

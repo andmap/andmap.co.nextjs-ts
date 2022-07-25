@@ -331,7 +331,7 @@ const Optus: NextPage = () => {
           <h1 className='text-[24px] pt-2 text-gray-400'>Android</h1>
           <p className='text-gray-600'>
             <span className='text-bold text-black'>HFC FIELD WALKOUT: </span>
-            Andmap helps Lendlease to perform HFC Node audits to Optus's
+            Andmap helps Lendlease to perform HFC Node audits to Optus{`'`}s
             existing RF Network and want to capture the audit data
             electronically and then importing the results directly into the
             Optus PNI System (Spatialnet). more details...

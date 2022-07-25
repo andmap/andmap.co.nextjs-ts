@@ -12,7 +12,13 @@ const initContext: IDropdownContext = {
 
 export const DropdownContext = createContext<IDropdownContext>(initContext)
 
-export const DropdownContextProvider: FunctionComponent = ({ children }) => {
+type Props = {
+  children: JSX.Element
+}
+
+export const DropdownContextProvider: FunctionComponent<Props> = ({
+  children,
+}) => {
   const [dropdownOpen, toggleDropdown] = useState(false)
 
   const toggleHandler = () => {

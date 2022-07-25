@@ -68,8 +68,8 @@ const Solutions: NextPage = () => {
             <h2 className='text-[16px] text-bold pb-2'>AMG V3.1</h2>
             <p className='text-[30px] mb-8'>ANDMAP MOBILE GIS</p>
             <p className='text-gray-400'>
-              AMG is a custom configured 'turn-key' solution, streamlines your
-              Field Mapping and Data Collection works.
+              AMG is a custom configured {`'`}turn-key{`'`} solution,
+              streamlines your Field Mapping and Data Collection works.
             </p>
             <div className='flex'>
               <div className='flex-auto w-64 relative h-64 p-4'>
@@ -167,38 +167,38 @@ const Solutions: NextPage = () => {
         <div className='grid grid-cols-1 gap-4 lg:grid-cols-3 p-16'>
           <div className='p-8'>
             <p className='text-fontGray font-thin mt-4'>
-              'An Outstanding Mapping and Auditing Tool - Second to None!! The
-              Custom Built Site and Dedicated Server has truly played an
+              {`'`}An Outstanding Mapping and Auditing Tool - Second to None!!
+              The Custom Built Site and Dedicated Server has truly played an
               instrumental part in developing a Tool that really works for us.
               This App continually allows us to refine our skills and further
               enhance our field methodology. Truly customised to meet our needs.
               Fantastic assistance from the Developer and quick to provide
-              turnaround on any issues and new processes. A must have App!'
+              turnaround on any issues and new processes. A must have App!{`'`}
             </p>
             <h2 className='text-bold  font-thin mt-4'>Dave Martin</h2>
             <h3 className='text-blue text-sm'>Lend Lease Group</h3>
           </div>
           <div className='p-8'>
             <p className='text-fontGray font-thin mt-4'>
-              'GIS relevant solution for field data collection Very well
+              {`'`}GIS relevant solution for field data collection Very well
               supported app. The developer will adapt to fit your needs and is
               more than willing to accept input. The only smartphone app that I
               have found that can effectively replace GIS specific (expensive)
               equipment and do so effectively. I look forward to seeing Andmap
-              continue to advance. Thanks!'
+              continue to advance. Thanks!{`'`}
             </p>
             <h2 className='text-bold  font-thin mt-4'>Joe Nicholas</h2>
             <h3 className='text-blue text-sm'>National Park Service</h3>
           </div>
           <div className='p-8'>
             <p className='text-fontGray font-thin mt-4'>
-              'I think this is the best GIS data collection app I've used.
-              Faster and easier to use then the expensive Windows Mobile
-              professional apps on rugged field computers I've used. The
+              {`'`}I think this is the best GIS data collection app I{`'`}ve
+              used. Faster and easier to use then the expensive Windows Mobile
+              professional apps on rugged field computers I{`'`}ve used. The
               developers respond to my every inquiry and even add the features
               that I request. Highly recommended if you need a serious GIS data
               collector and geophoto management app with online data storage and
-              manager.'
+              manager.{`'`}
             </p>
             <h2 className='text-bold  font-thin mt-4'>Emil Robles</h2>
             <h3 className='text-blue text-sm'>Philippines</h3>

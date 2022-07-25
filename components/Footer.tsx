@@ -69,12 +69,9 @@ const Footer = () => {
           <div className=' uppercase text-sm mt-4 mb-4'>FOLLOW US</div>
 
           <div className='md:flex-auto md:flex-row mt-1 flex-row flex'>
-            <a href='/#' className='w-6 mx-1'>
-              <TwitterIcon className='hover:cursor-pointer hover:fill-blue fill-brightBlue ' />
-            </a>
-            <a href='/#' className='w-6 mx-1'>
-              <InstagramIcon className='hover:cursor-pointer hover:fill-blue fill-brightBlue ' />
-            </a>
+            <Link href='/suwasa' className='mx-1'>
+              <TwitterIcon className='w-8 hover:cursor-pointer hover:fill-blue fill-brightBlue ' />
+            </Link>
           </div>
         </div>
       </div>

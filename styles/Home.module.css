@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -61,8 +61,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .grid {
@@ -70,7 +69,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 860px;
 }
 
 .card {
@@ -88,8 +87,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #3398dc;
+  border-color: #3398dc;
 }
 
 .card h2 {
@@ -113,4 +112,17 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.typewritertext {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing steps(50, end), blink 0.75s step-end forwards;
+  animation-duration: 6s;
+  white-space: nowrap;
+  font-size: 2rem;
+  font-weight: 700;
+  border-right: 4px solid #3498db;
+  box-sizing: border-box;
 }

@@ -39,11 +39,13 @@ const Navbar = () => {
           <Link href='/contact'>CONTACT</Link>
         </li>
       </ul>
+      {/*
       <Link href='/login'>
         <button className='hidden lg:block rounded-3xl bg-brightRed text-white py-3 px-7 shadow-md shadow-brightRedLight text-[13px] hover:cursor-pointer hover:bg-brightRedLight transition duration-300'>
           Get Started
         </button>
       </Link>
+  */}
       <div className='block lg:hidden hover:cursor-pointer relative z-40'>
         <HambergerIcon />
       </div>
